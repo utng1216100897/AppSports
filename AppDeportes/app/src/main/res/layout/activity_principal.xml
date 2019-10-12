@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86A7C7"
+    tools:context=".ActivityPrincipal">
+
+    <Button
+        android:id="@+id/btnFut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Futball"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBasquet"
+        android:layout_width="122dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:text="Basquetball"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFut" />
+
+    <Button
+        android:id="@+id/btnBeis"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="25dp"
+        android:text="Beisball"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBasquet" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="25dp"
+        android:text="Salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeis" />
+</androidx.constraintlayout.widget.ConstraintLayout>
